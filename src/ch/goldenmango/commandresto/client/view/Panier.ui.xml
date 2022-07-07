@@ -1,0 +1,49 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+			             xmlns:m="urn:import:gwt.material.design.client.ui"
+             xmlns:ma="urn:import:gwt.material.design.addins.client"
+                  xmlns:app="urn:import:ch.goldenmango.commandresto.client.view"
+	
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	.prix {
+		font-weight: bold;
+		color : #9c27b0;		
+	}
+	.group {
+	padding: 20px;
+	margin: 20px;
+	}
+	</ui:style>
+	<m:MaterialContainer>
+	<app:Notification></app:Notification>
+	<m:MaterialPanel shadow="2" styleName="{style.group}">
+                <m:MaterialLabel ui:field="votrePanier" fontSize="1.4em" text="Votre panier est vide"/>
+          
+          		<m:MaterialPanel ui:field="contentPanel" />
+  
+                 <m:MaterialLabel textAlign="CENTER" text="Total du panier : "  fontSize="0.9em" styleName="{style.important}"/>
+                 <m:MaterialLabel textAlign="CENTER" ui:field="total" text="CHF 0.00"  styleName="{style.prix}"/>
+                 <m:MaterialPanel ui:field="formPanel" visible="false" >
+                 <m:MaterialRow marginBottom="0">
+                 	    <m:MaterialTextBox fieldType="DEFAULT" ui:field="nom" label="Nom" grid="s12 m6" placeholder="obligatoire pour retirer votre commande" required="true" clearOnKeyUp="true"/>
+     					<ma:combobox.MaterialComboBox ui:field="hour" fieldType="DEFAULT" label="Heure de récupération au restaurant" grid="s6 m6" required="false" clearOnKeyUp="true"/>
+ 
+                  	    <m:MaterialTextBox fieldType="DEFAULT" ui:field="email" label="E-mail" grid="s12 m6" placeholder="Si vous desirez un résumé de votre commande"  clearOnKeyUp="true"/>
+                  	    <m:MaterialTextBox fieldType="DEFAULT"  ui:field="tel" label="Téléphone" grid="s12 m6" placeholder="Pour vous joindre en cas de problème"  clearOnKeyUp="true"/>
+                 	
+                    <m:MaterialTextArea ui:field="remarquesArea" grid="s12" label="Vos remarques" placeholder="Vos remarques au cuisinier / allergies" />
+                </m:MaterialRow> 
+                </m:MaterialPanel> 
+                <m:MaterialRow>
+   		             <m:MaterialButton ui:field="commandButton" enabled="false" text="Commander"></m:MaterialButton>
+   		           	 <m:MaterialButton  ui:field="payButton" enabled="false" visible="false" text="Payer"></m:MaterialButton>
+   		             
+                </m:MaterialRow>    
+	</m:MaterialPanel>
+	</m:MaterialContainer>
+</ui:UiBinder> 

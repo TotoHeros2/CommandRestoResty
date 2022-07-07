@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	            xmlns:m="urn:import:gwt.material.design.client.ui"
+	
+	
+	>
+	<ui:style>
+	
+	</ui:style>
+
+	    <m:MaterialFooter ui:field="footer" addStyleNames="custom-footer">
+        <m:MaterialRow>
+            <m:MaterialColumn grid="s12">
+                <m:MaterialTitle textColor="WHITE" title="Golden Mango restaurant" description="92, Avenue de Morges. 1004 lausanne"/>
+  				<m:MaterialLabel textColor="WHITE" text="Téléphone : 021 601 99 88 Mobile : 079 375 99 88"></m:MaterialLabel>
+  					
+            </m:MaterialColumn>
+            
+        </m:MaterialRow>
+       </m:MaterialFooter>   
+</ui:UiBinder> 

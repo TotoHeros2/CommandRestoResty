@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/asm-util-7.1.jar"/>
+	<classpathentry kind="lib" path="libs/boon-0.7.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/cssparser-0.9.20.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-jackson-0.13.0.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-material-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-material-addins-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-material-jquery-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-material-table-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/gwt-material-themes-2.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/htmlunit-2.23.jar"/>
+	<classpathentry kind="lib" path="libs/htmlunit-core-js-2.23.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="libs/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-asl-1.9.10.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-jaxrs-1.9.10.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-jaxrs-base-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-jaxrs-json-provider-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-mapper-asl-1.9.12.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-module-jaxb-annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-xc-1.9.12.jar"/>
+	<classpathentry kind="lib" path="libs/javax.json-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/javax.json-api-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="libs/jaxrs-api-3.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jsinterop-annotations-2.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/neko-htmlunit-2.23.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy-cache-core-3.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy-jackson-provider-3.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy-jaxrs-3.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy-multipart-provider-3.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="libs/restygwt-2.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/websocket-api-9.2.18.v20160721.jar"/>
+	<classpathentry kind="lib" path="libs/websocket-client-9.2.18.v20160721.jar"/>
+	<classpathentry kind="lib" path="libs/websocket-common-9.2.18.v20160721.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
